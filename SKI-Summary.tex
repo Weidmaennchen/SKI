@@ -18,35 +18,80 @@
 \section{Preface}
 Topic, etc
 \section{Summary}
-The value of personal data is widely undisputed in today’s society – at least it ought to be. According to a study conducted by the FTC in 2014 nine key data brokers, companies that buy and resell personal data, generated $462 million in revenue in 2012 alone \cite{FTCStudy}. And while people mostly want to keep their private data private \cite{WorthOfData} there are still plenty of services we voluntarily give our data to – free of charge. The obvious examples of this are social networks in which users provide their personal data for the world to see. But these networks are not the only services that give their users the option of uploading their data to the internet. Personal cloud services such as Google Drive allow users to store their data in the cloud, so they can access it from any of their devices. The safety of these services has been the subject of much discussion \cite{CloudSecurity}  but it is not only the providers of cloud storage services that get access to the user’s data. Third party apps that act on top of Google Drive and enable additional functionality in turn require access to the user’s data.
+The value of personal data is widely undisputed in today’s society – at least it ought to be. 
+According to a study conducted by the FTC in 2014 nine key data brokers, companies that buy and resell personal data, generated \$462 million in revenue in 2012 alone \cite{FTCStudy}. 
+And while people mostly want to keep their private data private \cite{WorthOfData} there are still plenty of services we voluntarily give our data to – free of charge. 
+The obvious examples of this are social networks in which users provide their personal data for the world to see. 
+But these networks are not the only services that give their users the option of uploading their data to the internet. Personal cloud services such as Google Drive allow users to store their data in the cloud, so they can access it from any of their devices. 
+The safety of these services has been the subject of much discussion \cite{CloudSecurity} but it is not only the providers of cloud storage services that get access to the user’s data. 
+Third party apps that act on top of Google Drive and enable additional functionality in turn require access to the user’s data.
 
-The conference proceeding ''The Curious Case of the PDF Converter that Likes Mozart: Dissecting and Mitigating the Privacy Risk of Personal Cloud Apps`` by Harkous et al. examines third party apps for Google Drive that are ''over-privileged``. In case of an over-privileged app, the app requests more privileges (and therefore user data) than it needs to fulfil its function. This data can be sold to advertising providers or otherwise exploited. In order to raise awareness with the users, the authors suggest and evaluate new permission models. Furthermore they introduce their own app store dedicated to user privacy, analyse the behaviour of app developers and suggest best practices for cloud storage providers (short CSP).
-To examine the problem of over-privileged apps Harkous et al. considered third party apps for Google Drive because it had about 240 million active users in 2014 and around 420 apps marked as ''Works with Google Drive``. But the presented results should be applicable for other platforms as well. Each app at any store or website that works with Google Drive specifies a set of permissions from the Google Drive API or other Google APIs and can in this way access the user data stored at CSPs. The user has to accept these permissions if he wants to use the app but can revoke these permissions later (but then of course he can no longer use the app). In order to show the distribution of over-privileged third party apps the authors examined 100 randomly chosen apps from the start page in may 2015 and reviewed them by hand. In the review process each app is linked with Google Drive and the requested and needed permissions are recorded. The results are as follows: 64 percent of the apps are over-privileged and 76 percent of apps requested full access to the user files (all of the over-privileged do). This means that 84 percent of the apps that want full access are over-privileged. \\
-%\subsection{Suggestion of new permission models}
+The conference proceeding ''The Curious Case of the PDF Converter that Likes Mozart: Dissecting and Mitigating the Privacy Risk of Personal Cloud Apps`` by Harkous et al. examines third party apps for Google Drive that are ''over-privileged``. 
+In case of an over-privileged app, the app requests more privileges (and therefore user data) than it needs to fulfil its function. 
+This data can be sold to advertising providers or otherwise exploited. 
+In order to raise awareness with the users, the authors suggest and evaluate new permission models. 
+Furthermore they introduce their own app store dedicated to user privacy, analyse the behaviour of app developers and suggest best practices for cloud storage providers (short CSP).
+To examine the problem of over-privileged apps Harkous et al. considered third party apps for Google Drive because it had about 240 million active users in 2014 and around 420 apps marked as ''Works with Google Drive``. 
+But the presented results should be applicable for other platforms as well. 
+Each app at any store or website that works with Google Drive specifies a set of permissions from the Google Drive API or other Google APIs and can in this way access the user data stored at CSPs. 
+The user has to accept these permissions if he wants to use the app but can revoke these permissions later (but then of course he can no longer use the app). 
+In order to show the distribution of over-privileged third party apps the authors examined 100 randomly chosen apps from the start page in may 2015 and reviewed them by hand. 
+In the review process each app is linked with Google Drive and the requested and needed permissions are recorded. 
+The results are as follows: 64 percent of the apps are over-privileged and 76 percent of apps requested full access to the user files (all of the over-privileged do). 
+This means that 84 \% of the apps that want full access are over-privileged. \\
 
-\textbf{Suggestion of new permission models} \\
+\subsection{Suggestion of new permission models}
+
 As the next step in this paper the authors described and evaluated three alternative permission models to the existing model of Google Drive: Delta Permissions (DP), Immediate Insights (IM) and Far-reaching Insights (FR).
-The DP model is based on the assumption that users are deterred from privileging an app if they are told which permissions the app actually needs and which it requests unnecessarily. For the second model IM, the hypothesis is that users are deterred when they are confronted with information that can be gained from the user data by means of the unneeded permissions. Possible displayed insights could be an image, the location it was taken, the beginning of a text file or the name and profile picture of a colleague. The last and most complex model is FR. The theory in this case is that users are deterred if they are shown which far reaching insights can be gained from their data via the unneeded permissions. Harkous et al. presented six types of insights in this category: Entities, Concepts and Topics (Names of people connected to the user and user interests), Sentiments (positive and negative feelings), Top Collaborators (people most interacted with), Shared Interests (interests shared with a group of people), Faces with Context (pictures of the people that occurred the most) and Faces on Map (the locations photos of people were taken). \\ 
-After introducing these models, the authors started a survey to see how users react to these permission models. They looked for Google Drive users at their university with a minimum of ten text files or 20 images stored as survey participants. They found 210 persons for their study who were split into four groups: three groups corresponding to the permission models (DP 50, IM 54, FR 51 participants) and a control group (55 participants) with the original Google Drive permission interface. Participants were confronted with multiple apps, their corresponding permissions and the consequent ''problems`` for the permission model as described above. The participants then had to decide whether they would privilege that app or not. The results were assessed with the method of Acceptance Likelihood (the acceptance relative to the overall feedback $\rightarrow$ the less the better). The most effective method to deter people from using an over-privileged app was found to be showing them Faces with Context (\textasciitilde 0.08) or Shared Interests (\textasciitilde 0.09), both from the Far-reaching Insights model. The least effective were found to be Delta Permissions (\textasciitilde 0.42) or the standard permission model (\textasciitilde 0.39). However, the authors pointed out that these results may be distorted due to the choice of participants and artificial presentation of the apps. They concluded that there is a need for further studies in this field. \\
-%\subsection{PrivySeal} 
+The DP model is based on the assumption that users are deterred from privileging an app if they are told which permissions the app actually needs and which it requests unnecessarily. 
+For the second model, IM, the hypothesis is that users are deterred when they are confronted with information that can be gained from the user data by means of the unneeded permissions. 
+Possible displayed insights could be an image, the location it was taken, the beginning of a text file or the name and profile picture of a colleague. 
+The last and most complex model is FR. 
+The theory in this case is that users are deterred if they are shown which far reaching insights can be gained from their data via the unneeded permissions. 
+Harkous et al. presented six types of insights in this category: Entities, Concepts and Topics (Names of people connected to the user and user interests), Sentiments (positive and negative feelings), Top Collaborators (people most interacted with), Shared Interests (interests shared with a group of people), Faces with Context (pictures of the people that occurred the most) and Faces on Map (the locations photos of people were taken).
+ 
+After introducing these models, the authors started a survey to see how users react to these permission models. 
+They looked for Google Drive users at their university with a minimum of ten text files or 20 images stored as survey participants. 
+They found 210 persons for their study who were split into four groups: three groups corresponding to the permission models (DP 50, IM 54, FR 51 participants) and a control group (55 participants) with the original Google Drive permission interface.  Participants were confronted with multiple apps, their corresponding permissions and the consequent ''problems`` for the permission model as described above. 
+The participants then had to decide whether they would privilege that app or not. 
+The results were assessed with the method of Acceptance Likelihood (the acceptance relative to the overall feedback $\rightarrow$ the less the better). 
+The most effective method to deter people from using an over-privileged app was found to be showing them Faces with Context (\textasciitilde 0.08) or Shared Interests (\textasciitilde 0.09), both from the Far-reaching Insights model. 
+The least effective were found to be Delta Permissions (\textasciitilde 0.42) or the standard permission model (\textasciitilde 0.39). 
+However, the authors pointed out that these results may be distorted due to the choice of participants and artificial presentation of the apps. 
+They concluded that there is a need for further studies in this field. \\
 
-\textbf{PrivySeal} \\
-Once the authors of the paper evaluated how an effective permission model could be designed, they decided to develop and launch their own app store for Google Drive apps. It is called PrivySeal and focuses on the protection of the user's privacy. For this purpose, there are three core features: First, apps are enriched with the information as to which of its permission requests are unneeded and the possibly gained far-reaching insights from that. Second, the user is given the possibility to search for apps according to their privilege requirements. And third, a tool is provided for developers to see which permissions they requested unjustifiably and give them a list with permissions they could have requested instead. For the year 2016, the authors claimed that PrivySeal had 1440 registered users and offered 100 apps. \\
-%\subsection{Current misbehavior of developers}
+\subsection{PrivySeal} 
 
-\textbf{Analysis of current behaviour of developers} \\
-After pointing out that many of the third party apps request more permissions than they actually need and presenting their own app store, Harkous et al. further analysed the current practices of app developers. Therefor they investigated previously installed apps at Google Drive from their 1440 app store users (662 apps in total). For each of those, they recorded whether the app requested partial or full access to the users Google Drive data at the time of authorization (if the app changed the permissions later it was recorded as if it wanted both access types) and from which source the app originated (Google Chrome Web Store (\textasciitilde 159 Apps), other Google Web Stores (\textasciitilde 66 Apps), outside of Google Web Stores (\textasciitilde 437 Apps)). The results show that developers in the Chrome Web Store tend to request full access less often (14\% full vs. 48\% partial vs. 40\% both), while developers outside of Google Web Stores do it the most (64\% full vs. 35\% partial vs. 0\% both). They also show that if the permissions are changed during the existence of an app, developers most of the time request more access: 94 percent of the examined apps that changed their permissions at the Chrome Web Store changed from partial to full access. \\ 
+Once the authors of the paper evaluated how an effective permission model could be designed, they decided to develop and launch their own app store for Google Drive apps. 
+It is called PrivySeal and focuses on the protection of the user's privacy. 
+For this purpose, there are three core features: First, apps are enriched with the information as to which of its permission requests are unneeded and the possibly gained far-reaching insights from that. 
+Second, the user is given the possibility to search for apps according to their privilege requirements. 
+And third, a tool is provided for developers to see which permissions they requested unjustifiably and give them a list of permissions they could have requested instead. 
+For the year 2016, the authors claimed that PrivySeal had 1440 registered users and offered 100 apps. 
+
+\subsection{Current misbehavior of developers}
+
+After pointing out that many of the third party apps request more permissions than they actually need and presenting their own app store, Harkous et al. further analysed the current practices of app developers. 
+Therefore they investigated previously installed apps at Google Drive from their 1440 app store users (662 apps in total). 
+For each of those, they recorded whether the app requested partial or full access to the users Google Drive data at the time of authorization (if the app changed the permissions later it was recorded as if it wanted both access types) and from which source the app originated (Google Chrome Web Store (\textasciitilde 159 Apps), other Google Web Stores (\textasciitilde 66 Apps), outside of Google Web Stores (\textasciitilde 437 Apps)). 
+The results show that developers in the Chrome Web Store tend to request full access less often (14\% full vs. 48\% partial vs. 40\% both), while developers outside of Google Web Stores do it the most (64\% full vs. 35\% partial vs. 0\% both). 
+They also show that if the permissions are changed during the existence of an app, developers most of the time request more access: 94 percent of the examined apps that changed their permissions at the Chrome Web Store changed from partial to full access. \\ 
 %The authors also found out that even the meta-data can give immense insights about topics and interests of the user and should accordingly be part of the Far-reaching Insights model. \\
 
-%\subsection{Best practices}
-\textbf{Best practices} \\
-The last part of the paper suggests best practices for CSPs, which should help the user not to expose his data unnecessarily. The first suggestion is to use more granulated permissions restricted for example for specific types of files. The authors pointed out, however, that this could possibly result in more complicated interfaces. The second proposal is to add an overview to cloud platforms where the user can see which files were downloaded by third party apps and when this happened. The third recommendation is that cloud platforms should inform users about insights that can be gained from files that are currently downloaded. The last offered advice is to add an additional API that works as a top layer for other APIs and takes care of privacy matters. This could be combined with the previously suggested practices.
+\subsection{Best practices}
+
+The last part of the paper suggests best practices for CSPs, which should help the user not to expose his data unnecessarily. 
+The first suggestion is to use more granulated permissions restricted for example for specific types of files. 
+The authors pointed out, however, that this could possibly result in more complicated interfaces. 
+The second proposal is to add an overview to cloud platforms where the user can see which files were downloaded by third party apps and when this happened. 
+The third recommendation is that cloud platforms should inform users about insights that can be gained from files that are currently downloaded. 
+The last offered advice is to add an additional API that works as a top layer for other APIs and takes care of privacy matters. This could be combined with the previously suggested practices.
 \section{Das danach TODO Namen finden}
 \begin{thebibliography}{99}
 \bibitem{FTCStudy}
   Federal Trade Comission, \emph{A Call for Transparency and Accountability}, \url{https://www.ftc.gov/system/files/documents/reports/data-brokers-call-transparency-accountability-report-federal-trade-commission-may-2014/140527databrokerreport.pdf}
 \bibitem{WorthOfData}
-  Alexis C. Madrigal, \emph{How Much Is YOur Data Worth? Mmmm, Somewhere Between Half a Cent and $1200}, \url{https://www.theatlantic.com/technology/archive/2012/03/how-much-is-your-data-worth-mmm-somewhere-between-half-a-cent-and-1-200/254730/}
+  Alexis C. Madrigal, \emph{How Much Is YOur Data Worth? Mmmm, Somewhere Between Half a Cent and \$1200}, \url{https://www.theatlantic.com/technology/archive/2012/03/how-much-is-your-data-worth-mmm-somewhere-between-half-a-cent-and-1-200/254730/}
 \bibitem{CloudSecurity}
   Kui Ren et al., \emph{Security Challenges for the Public Cloud}, \url{http://ieeexplore.ieee.org/document/6123700/}
 \bibitem{example}
