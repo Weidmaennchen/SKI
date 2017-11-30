@@ -18,3 +18,23 @@
    * length suggestions: one paragraph of three sentences is usually not enough, two pages A4 are typically too much
    * hard limit: 200,000 characters
    * language: English
+
+
+Als Hilfe: 
+Criteria for summaries
+===============================================
+
+ * Briefly outline the "field" this paper belongs to, the challenges that exist in this field and how your paper fits into the bigger picture
+ * Explain the relevant basics and fundamentals
+   * What stuff do you have to know in order to understand the content of the paper and to judge its impact?
+ * Your summary should contain answers to the following:
+   * What are the problems to be solved? Why are they worthwhile to solve?
+   * What methods are used? How is the problem tackled?
+   * What results are obtained? What do the results mean?
+ * Additionally: outline the impact of the paper
+   * What is the "delta" that the authors of the paper achieved in comparison of the state of the art at the time the paper was published
+   * How is it different/better compared to related works?
+     * How has the paper been received by the scientific community?
+     * How do papers that have been published later talk about this paper?
+     * Is the delta of the paper of relevance today?
+     * Did the paper influence its field?
