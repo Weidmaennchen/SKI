@@ -1,0 +1,63 @@
+After reading the summary and the corresponding paper I found some 
+issues. At first I think the presentation is in need of improvement. 
+I would like to read the authors of the paper under the title, but this 
+could be matter of taste. But more critical, I think the sections don't 
+really fit the text (for example I felt like section 8 contains a 
+conclusion and section 9 is more like the outline of the impact), the 
+titles are too repetitive and the resulting layout (especially the 
+spacing) is looks bad. Additionally the style is not consistent 
+(paragraphs and their spacing differs! Sometimes you seem to have used 
+two blank lines for a paragraph and sometimes something else (maybe \\).
+Besides the transition between the sections is missing mostly. 
+
+Another problem is the language. Some words are misspelled 
+(section 1: occured -> occurred; section 6: firendly -> friendly; 
+section 7: functinal -> functional) and you mixed up british and 
+american englisch (analyzed and analysed). I have looked up the word 
+"analyzation" and it does not seem to be an existing word 
+("analysation" neither, correct would have been analysis). Also I think 
+many sentences are way too short or difficult to read respectively 
+understand. Last but not least, you also mixed up the times (sometimes 
+you write in present, sometimes past).
+
+I also have a little problem with the content. After I read the paper I 
+felt like something in your summary is missing and maybe I would have 
+prioritised the content different. But I must admit that the paper you 
+have to summarise is very "technical" and hard to outline while staying 
+understandable. 
+
+Moreover I think that a using a bibliography instead of foot nodes would 
+be better and that only one source is too little. 
+
+When I compare your summary to the given criteria for summaries I'm 
+missing some things. At first I think you should have outlined the field 
+ahead of the summary and give more information about the technical 
+background (like the paper did. I was missing it in your summary and 
+find it hard to understand a lot of "car applied stuff"). And my last 
+criticism is that I think you haven't really outlined the paper. The 
+section "Conclusion" (bad name for an outline) first you say that the 
+authors claim to be the first to reveal the device in the Fiat 500X. 
+Have you tried to confirm that? I have searched on the web very very 
+short and found something (https://books.google.de/books?hl=de&lr=&id=qfbMDgAAQBAJ&oi=fnd&pg=PR5&dq=fiat+500x+defeat+device&ots=8g89KQNl23&sig=cOpnpWHmACn3ZJyLuNpEP05dr9Y#v=onepage&q=fiat&f=false, 
+section 4.5.1.2), published a day before the paper and stating out that 
+Fiat uses an timer based "defeat device". So maybe they are not the 
+first? In this section you say "their third statement cannot be 
+confirmed" and I still sitting here clueless what their third statement 
+is and why it can't be confirmed. Or do you want to say that they were 
+not the first? If so, the section is not understandable without thinking 
+it through for hours. The last sentence isn't much better. The first 
+part of it doesn't seem to fit together (Seeing as “diesel gate” and
+defeat devices are still a hot topic and how easy emission
+tests can be manipulated due to their standardized nature,[...]) and the 
+rest of it seem like it should have a source. Who thinks that it is a 
+valuable contribution and could help in the future? You? The author? 
+Who else? Because if I look in Google Scholar it has 2 citations. And 
+if only you think it you should clarify that it is your opinion. 
+
+Rating: 
+1. content: 1 (major issues) – 5 (everything stated is correct, everything important has been stated, the material is easily understandable)
+   3
+2. presentation: 1 (major issues) – 5 (clean layout, suitable structure of the text into sections and paragraphs)
+   3
+3. language 1 (major issues) – 5 (good command of the English language in terms of wording, orthography, and grammar)
+   3
