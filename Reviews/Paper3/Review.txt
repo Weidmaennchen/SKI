@@ -11,7 +11,7 @@ two blank lines for a paragraph and sometimes something else (maybe \\).
 Besides the transition between the sections is missing mostly. 
 
 Another problem is the language. Some words are misspelled 
-(section 1: occured -> occurred; section 6: firendly -> friendly; 
+(examples: section 1: occured -> occurred; section 6: firendly -> friendly; 
 section 7: functinal -> functional) and you mixed up british and 
 american englisch (analyzed and analysed). I have looked up the word 
 "analyzation" and it does not seem to be an existing word 
@@ -24,7 +24,13 @@ I also have a little problem with the content. After I read the paper I
 felt like something in your summary is missing and maybe I would have 
 prioritised the content different. But I must admit that the paper you 
 have to summarise is very "technical" and hard to outline while staying 
-understandable. 
+understandable. But I still didn't understand much of your summary 
+without reading the paper. I think you really should add more 
+definitions of words (like defeat device; or use less technical terms) 
+and point out much clearer what you want to say. And definitely 
+prioritize what you write in your summary because sometimes it just 
+feels like you write things beside the point and therefor omit crucial 
+information for understanding the topic of the paper.
 
 Moreover I think that a using a bibliography instead of foot nodes would 
 be better and that only one source is too little. 
@@ -34,7 +40,7 @@ missing some things. At first I think you should have outlined the field
 ahead of the summary and give more information about the technical 
 background (like the paper did. I was missing it in your summary and 
 find it hard to understand a lot of "car applied stuff"). And my last 
-criticism is that I think you haven't really outlined the paper. The 
+criticism is that I think you haven't really outlined the paper. In the 
 section "Conclusion" (bad name for an outline) first you say that the 
 authors claim to be the first to reveal the device in the Fiat 500X. 
 Have you tried to confirm that? I have searched on the web very very 
@@ -51,13 +57,17 @@ defeat devices are still a hot topic and how easy emission
 tests can be manipulated due to their standardized nature,[...]) and the 
 rest of it seem like it should have a source. Who thinks that it is a 
 valuable contribution and could help in the future? You? The author? 
-Who else? Because if I look in Google Scholar it has 2 citations. And 
-if only you think it you should clarify that it is your opinion. 
+Who else? If only you think it you should clarify that it is your 
+opinion. And what is the impact of the paper? Is it relevant? When I 
+look in Google Scholar it has 2 citations. Why haven't you said that?
+Does anybody care about this paper? If so (and even if not) tell about
+it in your summary. Does anybody care about the topic right now? If so 
+why don't you tell who and what they think. 
 
 Rating: 
 1. content: 1 (major issues) – 5 (everything stated is correct, everything important has been stated, the material is easily understandable)
-   3
+   2
 2. presentation: 1 (major issues) – 5 (clean layout, suitable structure of the text into sections and paragraphs)
    3
 3. language 1 (major issues) – 5 (good command of the English language in terms of wording, orthography, and grammar)
-   3
+   2
