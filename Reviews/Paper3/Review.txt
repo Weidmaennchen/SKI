@@ -69,5 +69,5 @@ Rating:
    2
 2. presentation: 1 (major issues) – 5 (clean layout, suitable structure of the text into sections and paragraphs)
    3
-3. language 1 (major issues) – 5 (good command of the English language in terms of wording, orthography, and grammar)
+3. language: 1 (major issues) – 5 (good command of the English language in terms of wording, orthography, and grammar)
    2
