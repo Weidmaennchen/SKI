@@ -1,11 +1,22 @@
 Review of Summary
 
-The Text at hand is a summary that concerns itself with the article “Key Reinstallation Attacks: Forcing Nonce Reuse in WPA2“ by Mathy Vanhoef and Frank Piessens, published in Oct. 2017.
-The Introduction into the field of network security is relatively slim but considering that the importance of WiFi security is also a relatively obvious matter this is forgivable.
-Following up the short introduction the summary spends considerably more time explaining technical fundamentals which I like a lot. After describing the concept of how wireless networks function and how WPA2 came to be and why it has replaced its predecessors the authentication process of WPA2 is described in sufficient detail. I especially like the visualization of the authentication that is used. While not essential to the Key Reinstallation attacks, the encryption protocols that are used for WPA2 WiFi are also mentioned. Up until this point, the summary has given a solid explanation of WPA2 security which is needed to understand how key reinstallation attacks work.
-The next part of the summary is dedicated to the papers contents. The overall aim of the paper is mentioned: WPA2 was considered to be safe but the authors might have found a new way of attacking it. The Methods that Vanhoef uses to validate his claims are explained in detail while not giving a lot of unnecessary information. The summary describes what key reinstallation attacks are, at what exact point they interfere with the WPA2 standard, what the prerequisites for such an attack are and how these attacks are conducted on several different operating systems.
+The Text at hand is a summary that concerns itself with the article â€œKey Reinstallation Attacks: Forcing Nonce Reuse in WPA2â€œ
+by Mathy Vanhoef and Frank Piessens, published in Oct. 2017.
+The Introduction into the field of network security is relatively slim but considering that the importance of WiFi 
+security is also a relatively obvious matter this is forgivable.
+Following up the short introduction the summary spends considerably more time explaining technical fundamentals 
+which I like a lot. After describing the concept of how wireless networks function and how WPA2 came to be and 
+why it has replaced its predecessors the authentication process of WPA2 is described in sufficient detail. 
+I especially like the visualization of the authentication that is used. While not essential to the Key Reinstallation 
+attacks, the encryption protocols that are used for WPA2 WiFi are also mentioned. Up until this point, the summary has 
+given a solid explanation of WPA2 security which is needed to understand how key reinstallation attacks work.
+The next part of the summary is dedicated to the papers contents. The overall aim of the paper is mentioned: WPA2 was 
+considered to be safe but the authors might have found a new way of attacking it. The Methods that Vanhoef uses to 
+validate his claims are explained in detail while not giving a lot of unnecessary information. The summary describes 
+what key reinstallation attacks are, at what exact point they interfere with the WPA2 standard, what the prerequisites 
+for such an attack are and how these attacks are conducted on several different operating systems.
 The results of these tests are also mentioned. Every OS the authors of the paper tested is vulnerable to key reinstallation attacks, albeit not in the same way. The summary also mentions that all vendors of the tested operating systems were contacted about the vulnerability.
-Concerning the relevance and impact of the paper it is explained in the summary that there aren’t any other papers that reference Vanhoef’s work yet due to it being so recent.
+Concerning the relevance and impact of the paper it is explained in the summary that there arenâ€™t any other papers that reference Vanhoefâ€™s work yet due to it being so recent.
 Overall, I enjoyed reading the summary at hand and found it very informative. I think it is possible to gather worthwhile information from it even if you were not to read the paper itself.
 Content: 5
 Presentation: 4
