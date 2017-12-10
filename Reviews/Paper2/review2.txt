@@ -1,0 +1,40 @@
+Reading the first section "introduction", it seems as it is seperated into two parts.
+The first one is a summarizing sentence for the entire paper. This is followed by the technical background
+and the basic author's approach to this topic. The next three sections are confusing to a reader.
+Even though he reads three entire sections, it is only half a page with about 15 sentences (each section
+consists of two paragraphs.) Choosing the sectioning from the paper as the sectioning of the summary
+appears to be a very bad idea for several reasons. First, a summary is supposed to sum up a more detailed writing.
+Therefore, the parts of the paper containing the "hard" details or those parts which are not necessary for the main
+idea, are not to be addressed in a summary. By choosing the same section captions, you now face the problem
+of having a section without enough information to be called "section".
+
+As a reader of the summary, you understand the main idea of the paper. You understand what
+was intended to show and how this was achieved. Unfortunately, you only understand the main parts.
+At several points it just appears that the summary is missing integral parts. For example, in section 5,
+"class c" and "record x" are introduced. It seems like those are two important variables. But they are dropped
+after mentioned once, never to be seen again. Except for that, the summarizing quality of sections 5 to 7 are okay.
+As said above, the choice of sectioning is still not particularly good, but it works better in this instance.
+The conclusion is very weak. "The results are interesting and the providers need to be aware?" This conclusion
+does not recall the intentions of the paper nor the actual result. The result is about weaknesses to attacks.
+You have to name that and not some unnamed "risks their software carries".
+
+The language is, to be honest, horrible. There are so many and blunt orthographic errors which make me doubt anyone
+even read a single time what has been written. "Amamzon Machinen Learning" and "camapnies" show that there was not
+even some kind of software watching basic orthographic. The wording is okay, but the sentences are often far too long
+and at some points .
+Example: Second sentence of sec. 4. This sentence does not even end after it takes 5 lines already.
+Regarding the grammar, there are also some major issues. Some sentences, like the first one on page 2, just lose their
+structure after the first half.
+
+The guidelines for reviews given out tells you to outline the impact of the paper and to put it into a scientific context.
+You simply skipped this part. So you have only one source and the reader has no idea how to locate it in its context.
+Simply going on google scholar I found 31 citations of this paper. So there are reactions to this paper and it indeed has
+some importance.
+
+Rating: 
+1. content: 1 (major issues) – 5 (everything stated is correct, everything important has been stated, the material is easily understandable)
+   2
+2. presentation: 1 (major issues) – 5 (clean layout, suitable structure of the text into sections and paragraphs)
+   2
+3. language 1 (major issues) – 5 (good command of the English language in terms of wording, orthography, and grammar)
+   1
