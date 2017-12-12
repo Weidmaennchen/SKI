@@ -1,0 +1,28 @@
+Title is the same as the paper, with the authors listed. Should be 
+titled as an abstract.
+Preface does not properly cover the topic and misses to get the 
+essential point, that the authors discuss. Sources are not beneficial 
+for understanding underlying issue of the paper. Citation style switches 
+from Preface to Summary.
+
+No/wrong citation style used in the whole summary. A lot of spelling and 
+grammar mistakes, as well as unclear sentences in the first summary 
+section. The summary is not really summarizing the paper, but giving 
+insight into the first part of the paper. Authors are giving a lot of 
+detailed information and numbers, but fail to explain what the problem 
+behind over-privileged apps is. Far-reaching Insights are just listed 
+and miss an explanation.
+
+Current misbehavior of developers part fails to explain what the 
+misbehavior is and why switching the permissions during usage is really 
+bad. Structure of the sentences is very hard to understand.
+
+The paper´s influence part falls short on identifying why the paper is 
+an important addition to the scientific community. Very debatable 
+conclusion of the authors.
+References are not correct. Main Paper missing. Third source by Ren et 
+al. is not a website, but rather a paper in a journal.
+
+Content: 1 out of 5
+Presentation: 1 out of 5
+Language: 1 out of 5

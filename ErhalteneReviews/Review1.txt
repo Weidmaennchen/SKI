@@ -1,0 +1,18 @@
+The submitted summary is overall very good. It represents nearly every 
+important point of the paper excepts some details. It should 
+additionally point out, that it isn´t effective to improve the privacy 
+indicators in the chrome web store since most overprivileged apps aren´t 
+from the chrome web store. Furthermore, the importance of the metadata 
+analysis from part 7.2 should be mentioned in the summary. In addition, 
+the summary should contain one or two short sentences addressing the ARP 
+automating process. The following description of the three permission 
+models and the resulting test method was very good and precise. We also 
+liked the mentioning of the reliability of the test results. The 
+integration of Figure 11 of the paper would have been nice at this point 
+to depict the results you summarized before. The description of 
+PrivySeal was short and precise which we like.
+It was very good to mention the influence of the paper by searching 
+mentions in other papers. Additionally, you should add dates to your 
+references.
+Regarding content we rate the summary 4 of 5. For the presentation it 
+gets 4 out of 5 points. In terms of language we rate the summary 5 of 5.
