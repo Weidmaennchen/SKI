@@ -1,0 +1,88 @@
+Y - = erledigt
+X - = ignoriert
+-   = todo
+
+Review 1
+- that it isn´t effective to improve the privacy indicators in the 
+    chrome web store since most overprivileged apps aren´t from the 
+    chrome web store
+    -> OKAY, TODO
+- the importance of the metadata analysis from part 7.2 should be 
+    mentioned in the summary
+    -> ACK
+Y - should contain one or two short sentences addressing the ARP automating 
+    process
+    -> MAYBE
+- integration of Figure 11 of the paper would have been nice at this point 
+    to depict the results you summarized before
+    -> JA OK, ABER ZU GROẞ?
+- add dates to your references
+    -> VLLT?
+Review 2
+X - the question remains unclear why the paper has this unusual interesting 
+    title
+    -> WHO CARES
+Y - An explanation of other abbreviations like FTC is helpful
+    -> FTC OK, WHAT OTHER?
+X - Some sentences in Section 2 (Summary) are very commonly formulated and 
+    rather remind of a literal translation from German
+    -> NÄ
+Review 3
+Y - Should be titled as an abstract.
+    -> MEINETWEGEN
+- Preface does not properly cover the topic and misses to get the 
+    essential point
+    -> KP
+X - Sources are not beneficial for understanding underlying issue of the 
+    paper
+    -> FINDE ICH NICHT
+X - Citation style switches from Preface to Summary
+    -> UNLOGISCH, WENN ES DANACH KEINEN GIBT
+Y - No/wrong citation style used in the whole summary
+    -> ADDED (ICH REFERENZIERE DA JETZT NICHT FÜR JEDEN SATZ DAS PAPER...
+X - A lot of spelling and grammar mistakes, as well as unclear sentences 
+    in the first summary section
+    -> NÖ. FU
+X - The summary is not really summarizing the paper, but giving insight 
+    into the first part of the paper
+    -> ABSOLUT NICHT
+X - Authors are giving a lot of detailed information and numbers, but fail 
+    to explain what the problem behind over-privileged apps is.
+    -> TUN WIR. LERN LESEN.
+X - Far-reaching Insights are just listed and miss an explanation.
+    -> WIE GENAU SOLL MAN DAS NOCH ERKLÄREN?
+     The last and most complex model is FR. [...] Harkous et al. present 
+    six types of insights in this category: Entities, Concepts and Topics 
+    (Names of people connected to the user and user interests), 
+    Sentiments (positive and negative feelings), Top Collaborators 
+    (people most interacted with), Shared Interests (interests shared 
+    with a group of people), Faces with Context (pictures of the people 
+    that occurred the most) and Faces on Map (the locations photos of 
+    people were taken).
+- Current misbehavior of developers part fails to explain what the 
+    misbehavior is and why switching the permissions during usage is 
+    really bad
+    -> ANGUCKEN, TODO
+X - Structure of the sentences is very hard to understand.
+    -> NÄ
+- The paper´s influence part falls short on identifying why the paper is 
+an important addition to the scientific community
+    -> IST ES JA NICHT. TODO: ERWEITERN?
+X - Very debatable conclusion of the authors.
+    -> ??? WHY?
+X - References are not correct. 
+    -> ??? WHY? 
+Y - Main Paper missing. 
+    -> ADDED
+- Third source by Ren et al. is not a website, but rather a paper in a 
+journal.
+    -> PASSENDEN LINK RAUSSUCHEN?
+
+Eigene:
+- References für Section 3 wären gut
+
+
+
+SKI  12.02. | 05.03.
+NLP  09.02. | 20.03.
+ITIT 06.02. | 09.03.
