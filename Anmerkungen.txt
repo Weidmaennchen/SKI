@@ -80,9 +80,3 @@ journal.
 
 Eigene:
 - References für Section 3 wären gut
-
-
-
-SKI  12.02. | 05.03.
-NLP  09.02. | 20.03.
-ITIT 06.02. | 09.03.
