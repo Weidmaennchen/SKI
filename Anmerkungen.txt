@@ -19,14 +19,14 @@ X - integration of Figure 11 of the paper would have been nice at this point
 - add dates to your references
     -> VLLT?
 Review 2
-X - the question remains unclear why the paper has this unusual interesting 
+- the question remains unclear why the paper has this unusual interesting 
     title
-    -> WHO CARES
+    -> WHO CARES?
 Y - An explanation of other abbreviations like FTC is helpful
     -> FTC OK, WHAT OTHER?
-X - Some sentences in Section 2 (Summary) are very commonly formulated and 
+- Some sentences in Section 2 (Summary) are very commonly formulated and 
     rather remind of a literal translation from German
-    -> NÄ
+    -> 
 Review 3
 Y - Should be titled as an abstract.
     -> MEINETWEGEN
