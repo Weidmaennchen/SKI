@@ -3,19 +3,19 @@ X - = ignoriert
 -   = todo
 
 Review 1
-- that it isn´t effective to improve the privacy indicators in the 
+Y - that it isn´t effective to improve the privacy indicators in the 
     chrome web store since most overprivileged apps aren´t from the 
     chrome web store
     -> OKAY, TODO
-- the importance of the metadata analysis from part 7.2 should be 
+Y - the importance of the metadata analysis from part 7.2 should be 
     mentioned in the summary
     -> ACK
 Y - should contain one or two short sentences addressing the ARP automating 
     process
     -> MAYBE
-- integration of Figure 11 of the paper would have been nice at this point 
+X - integration of Figure 11 of the paper would have been nice at this point 
     to depict the results you summarized before
-    -> JA OK, ABER ZU GROẞ?
+    -> ZU GROẞ
 - add dates to your references
     -> VLLT?
 Review 2
@@ -59,7 +59,7 @@ X - Far-reaching Insights are just listed and miss an explanation.
     with a group of people), Faces with Context (pictures of the people 
     that occurred the most) and Faces on Map (the locations photos of 
     people were taken).
-- Current misbehavior of developers part fails to explain what the 
+Y - Current misbehavior of developers part fails to explain what the 
     misbehavior is and why switching the permissions during usage is 
     really bad
     -> ANGUCKEN, TODO
