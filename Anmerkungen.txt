@@ -30,7 +30,7 @@ Y - An explanation of other abbreviations like FTC is helpful
 Review 3
 Y - Should be titled as an abstract.
     -> MEINETWEGEN
-- Preface does not properly cover the topic and misses to get the 
+Y Preface does not properly cover the topic and misses to get the 
     essential point
     -> KP
 X - Sources are not beneficial for understanding underlying issue of the 
@@ -74,7 +74,7 @@ X - References are not correct.
     -> ??? WHY? 
 Y - Main Paper missing. 
     -> ADDED
-- Third source by Ren et al. is not a website, but rather a paper in a 
+Y Third source by Ren et al. is not a website, but rather a paper in a 
 journal.
     -> PASSENDEN LINK RAUSSUCHEN?
 
