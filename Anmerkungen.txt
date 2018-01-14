@@ -65,7 +65,7 @@ Y - Current misbehavior of developers part fails to explain what the
     -> ANGUCKEN, TODO
 X - Structure of the sentences is very hard to understand.
     -> NÄ
-- The paper´s influence part falls short on identifying why the paper is 
+Y The paper´s influence part falls short on identifying why the paper is 
 an important addition to the scientific community
     -> IST ES JA NICHT. TODO: ERWEITERN?
 X - Very debatable conclusion of the authors.
